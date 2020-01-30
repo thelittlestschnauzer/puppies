@@ -1,0 +1,26 @@
+{
+  "name": "puppies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelittlestschnauzer/puppies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelittlestschnauzer/puppies/issues"
+  },
+  "homepage": "https://github.com/thelittlestschnauzer/puppies#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.8",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
