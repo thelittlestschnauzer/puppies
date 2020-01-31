@@ -1,8 +1,13 @@
 const express = require('express');
 const server = express();
 
+const visitorRoutes = require('./routes/visitors-routes.js')
+const adminRoutes = require('./routes/admin-routes.js')
+
 server.use(express.json());
 
+server.use("/api/visitors", visitorRoutes)
+server.use("/api/admin", adminRoutes)
 server.get('/', (req, res)=> {
   res.send("Woof Woof! We are out of the Pound!")
 });
